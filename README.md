@@ -89,6 +89,7 @@ $git remote -v: 원격 저장소의 별칭 이름과 URL확인 가능
 원격 저장소를 연결할 때, **add 옵션** 사용
 > $ git remote add 원격저장소별칭 원격저장소URL
 >> $ git remove -v
+>> 
 >> 원격저장소별칭 원격저장소URL (fetch)
 >> 
 >> 원격저장소별칭 원격저장소URL (push)
