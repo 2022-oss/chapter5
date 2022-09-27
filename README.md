@@ -24,7 +24,6 @@ http://github.com/사용자이름
 
 #### 5.2.2 저장소 생성 <br>
 공개용 저장소와 비공개용 저장소(일부 유료 서비스) 두 개가 존재
-
 1. New repository를 선택하여 저장소 생성 
 2. 소유자(owner)를 확인, Repository name에 저장소 이름 입력(대소문자, 숫자, 하이픈, 밑줄 가능)
 3. 저장소 URL은 http://github.com/소유자/저장소 <br>
