@@ -36,12 +36,12 @@ http://github.com/사용자이름
 ### 5.3.1로컬 저장소 <br>
 README 파일을 체크하지 않은 상태에서 로컬 저장소와 원격 저장소를 연결하는 두 가지 방법 
 1. 새로운 로컬 저장소를 생성하고 원격 저장소 연결
->> $mkdir 새 폴더 이름 <br>
->> $cd 새 폴더 이름 <br>
->> $git init <br>
->> $echo "# 파일 이름" >> REAM.md <br>
->> $git add README.md <br>
->> $git commit -m "커밋 내용"
+> $mkdir 새 폴더 이름 <br>
+> $cd 새 폴더 이름 <br>
+> $git init <br>
+> $echo "# 파일 이름" >> REAM.md <br>
+> $git add README.md <br>
+> $git commit -m "커밋 내용"
 
 2. 기존 저장소 연결
 
