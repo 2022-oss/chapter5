@@ -38,12 +38,12 @@
 ### :pushpin:5.3.1로컬 저장소 <br>
 README 파일을 체크하지 않은 상태에서 로컬 저장소와 원격 저장소를 연결하는 두 가지 방법 
 1. 새로운 로컬 저장소를 생성하고 원격 저장소 연결
-> $mkdir 새 폴더 이름 <br>
-> $cd 새 폴더 이름 <br>
-> $git init <br>
-> $echo "# 파일 이름" >> REAM.md <br>
-> $git add README.md <br>
-> $git commit -m "커밋 내용"
+> $ mkdir 새 폴더 이름 <br>
+> $ cd 새 폴더 이름 <br>
+> $ git init <br>
+> $ echo "# 파일 이름" >> REAM.md <br>
+> $ git add README.md <br>
+> $ git commit -m "커밋 내용"
 
 2. 기존 저장소 연결
 
@@ -51,7 +51,7 @@ README 파일을 체크하지 않은 상태에서 로컬 저장소와 원격 저
 깃이 서버와 통신할 수 있도록 함, Local, HTTP, SSH, Git 네 종류
 
 1. Local: 원격 저장소를 생성, 자시의 컴퓨터를 Network File Syster 등 서버로 이용할 때 편리 
-$git remote add 원격저장소별칭 폴더경로
+> $ git remote add 원격저장소별칭 폴더경로 <br>
 폴더 경로만 입력하면됨, 간단한 서버 구축, 빠른 동작 가능 <br>
 모든 자료가 자신의 컴퓨터에 집중되는 위험
 
@@ -75,8 +75,8 @@ SSH와 유사하지만 인증 시스템이 없어 보안에 취약 <br>
 현재 연결된 원격 저장소 목록 확인 가능, 등록과 취소 등 장업 가능 <br>
 -help옵션으로 다양한 기능을 확인 가능
  
-$git remote: 원격 저장소의 이름(별칭) 출력, 원격 저장소 목록 확인할 때 편리
-$git remote -v: 원격 저장소의 별칭 이름과 URL확인 가능
+$ git remote: 원격 저장소의 이름(별칭) 출력, 원격 저장소 목록 확인할 때 편리 <br>
+$ git remote -v: 원격 저장소의 별칭 이름과 URL확인 가능
 
 저장소의 권한 정보까지는 알 수 없지만 복수의 원격 저장소를 연결해 사용 가능하면 목록을 모두 출력 가능
 
