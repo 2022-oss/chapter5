@@ -50,7 +50,7 @@ README 파일을 체크하지 않은 상태에서 로컬 저장소와 원격 저
 ### 5.3.2 프로토콜 <br>
 깃이 서버와 통신할 수 있도록 함, Local, HTTP, SSH, Git 네 종류
 
-1. Local: 원격 저장소를 생성, 자시의 컴퓨터를 Network File Syster 등 서버로 이용할 때 편리 
+1. Local: 원격 저장소를 생성, 자시의 컴퓨터를 Network File Syster 등 서버로 이용할 때 편리 <br> 
 $ git remote add 원격저장소별칭 폴더경로 <br>
 폴더 경로만 입력하면됨, 간단한 서버 구축, 빠른 동작 가능 <br>
 모든 자료가 자신의 컴퓨터에 집중되는 위험
